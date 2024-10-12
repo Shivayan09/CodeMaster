@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+}
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+}
+.subheading {
+    color: white;
+    font-size: 1.09rem;
+    text-align: center;
+}
+.main1 {
+    height: 950px;
+    background-image: url("black_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+.learn-type {
+    height: 20px;
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+}
+.learn-type-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    height: 30px;
+    width: 350px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    background-color: rgb(0,0,0,0.5);
+    margin-top: 35px;
+    height: 500px;
+    width: 280px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.learn {
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.lang {
+    color: white;
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.lang:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.lang a {
+    color: inherit;
+    text-decoration: none;
+}
+.lang1-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("java-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.adv {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.points {
+    color: white;
+    text-align: left;
+    margin: 10px 10px;
+}
+.resources-heading {
+    margin-top: 30px;
+    color: white;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.level1 {
+    margin-top: 25px;
+    margin-left: 30px;
+    height: 100px;
+    width: 220px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.level2 {
+    margin-left: 30px;
+    height: 100px;
+    width: 220px;
+    display: flex;
+}
+.r {
+    background-color: rgb(255,255,255,0.3);
+    margin: 5px 5px;
+    height: 100px;
+    width: 220px;
+    border: 1.5px solid black;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.java-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("java-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.java-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.hackerrank-img {
+    height: 60px;
+    width: 70px;
+    background-image: url("hackerrank-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hackerrank-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.striver-img {
+    height: 60px;
+    width: 60px;
+    background-image: url("tuf-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.striver-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.telusko-img {
+    height: 80px;
+    width: 80px;
+    background-image: url("telusko-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telusko-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.lang2-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("c++-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cpp-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("c++-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpp-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.codehelp-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("loveBabbar-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codehelp-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.lang3-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("Py-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.py-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("Py-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.py-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.codewharry-img {
+    height: 80px;
+    width: 80px;
+    background-image: url("codewHarry-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codewharry-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.lang4-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("html-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.html-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("html-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.w3-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("w3-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w3-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.apnacollege-img {
+    height: 80px;
+    width: 80px;
+    background-image: url("apnacollege-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apnacollege-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.learn-type2 {
+    height: 20px;
+    width: 700px;
+    margin-left: 30px;
+    display: flex;
+}
+.learn-type-text2 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    height: 30px;
+    width: 297px;
+}
+.c-img {
+    height: 60px;
+    width: 80px;
+    background-image: url("c-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.jennys-img {
+    height: 30px;
+    width: 80px;
+    background-image: url("jennys-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jennys-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.lang5-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("css-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lang6-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("js-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.css-img {
+    height: 80px;
+    width: 50px;
+    background-image: url("css-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.lang7-img {
+    height: 55px;
+    width: 100px;
+    background-image: url("swift-lang-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.js-img {
+    height: 55px;
+    width: 55px;
+    background-image: url("js-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.js-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.main2 {
+    height: 1020px;
+    background-image: url("black_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+.main3 {
+    height: 1000px;
+    background-image: url("black_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+.lang8-img {
+    height: 50px;
+    width: 100px;
+    background-image: url("kotlin-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swift-img {
+    height: 80px;
+    width: 70px;
+    background-image: url("swift-lang-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swift-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.codecademy-img {
+    height: 80px;
+    width: 100px;
+    background-image: url("codecademy-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.codecademy-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.freecodecamp-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("freecodecamp-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.freecodecamp-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.iosacademy-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("iosacademy-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iosacademy-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.kotlin-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("kotlin-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotlin-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.scaler-img {
+    height: 80px;
+    width: 80px;
+    background-image: url("scaler-logo-removebg-preview1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scaler-img:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.cheezycode-img {
+    height: 80px;
+    width: 80px;
+    background-image: url("cheezy-code-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cheezycode-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.learn-type3 {
+    height: 20px;
+    width: 700px;
+    margin-left: 30px;
+    display: flex;
+}
+.learn-type-text3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    height: 30px;
+    width: 230px;
+}
+.main4 {
+    height: 1000px;
+    background-image: url("black_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 300px;
+}
+.introduction-dsa {
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction-cp {
+    display: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dsa {
+    height: 90%;
+    width: 80%;
+    border: transparent;
+    border-radius: 3.6%;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5);
+}
+.dsa-heading {
+    font-size: 1.4rem;
+    margin: 20px 10px;
+    width: 50%;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.dsa-heading:hover {
+    transform: scale(1.15);
+    transition: 0.4s;
+}
+.dsa-desc {
+    font-size: 1.3rem;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.cp {
+    height: 90%;
+    width: 80%;
+    border: transparent;
+    border-radius: 3.6%;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5);
+}
+.cp-heading {
+    width: 30%;
+    font-size: 1.4rem;
+    color: white;
+    border-bottom: 2px solid white;
+    margin: 20px 10px;
+}
+.cp-heading:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.cp-desc {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.introduction-web {
+    margin-top: 60px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-content {
+    border: transparent;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5);
+    border-radius: 3.6%;
+    height: 70%;
+    width: 70%;
+}
+.web-heading {
+    width: 20%;
+    border-bottom: 2px solid white;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.web-heading:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.web-desc {
+    font-size: 1.3rem;
+    margin: 0px 20px;
+    margin-left: 200px;
+    color: white;
+}
+.introduction-py {
+    height: 585px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-content-py {
+    border: transparent;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5),
+                0 0 15px rgba(0, 238, 255, 0.5);
+    border-radius: 3.6%;
+    height: 90%;
+    width: 70%;
+}
+.py-heading {
+    width: 30%;
+    border-bottom: 2px solid white;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    color: white;
+}
+.py-heading:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.py-desc {
+    font-size: 1.3rem;
+    margin: 0px 20px;
+    margin-left: 200px;
+    color: white;
+}
+.main5 {
+    height: 700px;
+    background-image: url("black_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+}
+.lang9-img {
+    height: 50px;
+    width: 100px;
+    background-image: url("csharp-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.csharp-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("csharp-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.csharp-img:hover {
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+.microsoft-img {
+    height: 70px;
+    width: 70px;
+    background-image: url("microsoft-logo-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.microsoft-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
